@@ -4,7 +4,7 @@ import { FrontDropFilterControl } from './FrontDropFilterControl';
 
 
 
-export function Alert_Success(message) {
+const Alert_Success = (message) =>{
 
   FrontDropFilterControl();
   
@@ -22,7 +22,7 @@ export function Alert_Success(message) {
        });
 }
 
-export function Alert_Warning(message) {
+const Alert_Warning = (message) => {
 
   FrontDropFilterControl();
     swal.fire({
@@ -40,7 +40,7 @@ export function Alert_Warning(message) {
 }
 
 
-export function Alert_Error(message,ErrorsList) {
+const Alert_Error = (message,ErrorsList) => {
 
   FrontDropFilterControl();
 
@@ -84,7 +84,7 @@ export function Alert_Error(message,ErrorsList) {
 }
 
 
-export function ActionProcesse(Title,Comment,position) {
+const ActionProcesse = (Title,Comment,position) => {
 
   const Toast = swal.mixin({
     toast: true,
@@ -106,7 +106,7 @@ export function ActionProcesse(Title,Comment,position) {
 }
 
 
-export function ConfirmCRUD(e,id,Type,Link,Question,Data,ActionName){
+const ConfirmCRUD = (e,id,Type,Link,Question,Data,ActionName) =>{
 
     swal.fire({ 
       position: 'center', 
@@ -139,4 +139,9 @@ export function ConfirmCRUD(e,id,Type,Link,Question,Data,ActionName){
         }
       }
       })
+}
+
+
+export {
+  Alert_Success,Alert_Warning,Alert_Error,ActionProcesse,ConfirmCRUD
 }

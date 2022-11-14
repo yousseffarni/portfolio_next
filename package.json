@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -29,8 +28,6 @@
     "sweetalert2": "^11.4.9"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.29.0",
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "@netlify/plugin-nextjs": "^4.29.0"
   }
 }

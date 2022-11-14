@@ -118,3 +118,7 @@ return Result;
 
 }
 
+export {
+  GetMyDateName,GetMyDate,GetCurrentDateName,GetCurrentDate,GetCurrentTime,JustDateNoTime
+}
+

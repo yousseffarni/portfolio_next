@@ -1,3 +1,4 @@
+import next from "next";
 import React,{useState, useContext} from "react";
 import * as FaIcons from 'react-icons/fa';
 import DataContext from '../context/DataProvider';

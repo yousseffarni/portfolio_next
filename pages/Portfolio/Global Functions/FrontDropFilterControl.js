@@ -1,4 +1,4 @@
-export default function FrontDropFilterControl(Status){
+const FrontDropFilterControl = (Status) =>{
 
     let FrontDropFilter = document.getElementById('FrontDropFilter');
 
@@ -11,4 +11,8 @@ export default function FrontDropFilterControl(Status){
         FrontDropFilter.classList.add('d-none');
       }  
     }
+}
+
+export {
+  FrontDropFilterControl
 }

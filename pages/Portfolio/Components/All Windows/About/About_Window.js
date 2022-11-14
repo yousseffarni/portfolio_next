@@ -4,6 +4,7 @@ import { ProfileInfo ,SkillsList} from './About_Data';
 import {Tab,Tabs} from 'react-bootstrap';
 import Scrollable_Area from '../Scrollable_Area';
 import * as FaIcons from 'react-icons/fa';
+
 function About_Window() {
 
   const HandleContact_Links = (e,Title,Value) =>{
