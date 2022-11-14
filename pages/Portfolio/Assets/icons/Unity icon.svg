@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.32379007" y1="0.05496741" x2="0.92346424" y2="1.0472982" id="gradient_1">
+      <stop offset="0" stop-color="#636363" />
+      <stop offset="1" stop-color="#444444" />
+    </linearGradient>
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Unity-icon" transform="translate(1 1)">
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M35.1875 9.36975L20.7 13.002L10.1667 23.4395L26.8417 23.4395L35.1875 9.36975Z" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M10.201 26.5657L20.701 36.923L35.2292 40.5553L26.8792 26.5657L10.201 26.5657Z" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M37.951 10.9667L29.6323 25.001L37.951 38.9938L41.9729 25.001L37.951 10.9667Z" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M20.9646 13.4729L34.1021 10.1781L26.5448 22.9187L11.4323 22.9187L20.9646 13.4729Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#000000" stroke-opacity="0.07" stroke-width="1" />
+      <path d="M20.9646 13.4729L34.1021 10.1781L26.5448 22.9187L11.4323 22.9187L20.9646 13.4729Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#1D1D1B" stroke-opacity="0.05" stroke-width="2" />
+      <path d="M20.9646 13.4729L34.1021 10.1781L26.5448 22.9187L11.4323 22.9187L20.9646 13.4729Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#000000" stroke-opacity="0.07" stroke-width="1" />
+      <path d="M37.7833 37.6928L30.2385 25.0011L37.7833 12.2709L41.4312 25.0011L37.7833 37.6928Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#000000" stroke-opacity="0.07" stroke-width="1" />
+      <path d="M20.9646 36.4522L11.4708 27.0865L26.5833 27.0865L34.1406 39.7459L20.9646 36.4522Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#000000" stroke-opacity="0.07" stroke-width="1" />
+      <path d="M37.7833 37.6928L30.2385 25.0011L37.7833 12.2709L41.4312 25.0011L37.7833 37.6928Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#1D1D1B" stroke-opacity="0.05" stroke-width="2" />
+      <path d="M37.7833 37.6928L30.2385 25.0011L37.7833 12.2709L41.4312 25.0011L37.7833 37.6928Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#000000" stroke-opacity="0.07" stroke-width="1" />
+      <g id="Group" transform="translate(11.470825 27.086548)">
+        <path d="M9.49375 9.36562L0 0L15.1125 0L22.6698 12.6594L9.49375 9.36562Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#1D1D1B" stroke-opacity="0.05" stroke-width="2" />
+        <path d="M9.49375 9.36562L0 0L15.1125 0L22.6698 12.6594L9.49375 9.36562Z" id="Polygon" fill="none" fill-rule="evenodd" stroke="#000000" stroke-opacity="0.07" stroke-width="1" />
+      </g>
+      <path d="M37.7833 37.6927L30.2385 25.0011L37.7833 12.2709L41.4312 25.0011L37.7833 37.6927L37.7833 37.6927ZM20.9646 36.4521L11.4698 27.0864L26.5833 27.0864L34.1396 39.7458L20.9646 36.4521L20.9646 36.4521ZM20.9646 13.4729L34.101 10.1792L26.5448 22.9198L11.4323 22.9198L20.9646 13.4729L20.9646 13.4729ZM39.2573 4.20104L23.5198 8.28645C23.249 8.35729 23.0167 8.53229 22.875 8.775L20.5385 12.776L15.8167 12.7406C15.5396 12.7385 15.274 12.8458 15.075 13.0385L3.53125 24.2448C3.10521 24.6594 3.10521 25.3437 3.5323 25.7573L15.075 36.9281C15.2729 37.1198 15.5396 37.226 15.8156 37.224L20.5385 37.1885L22.876 41.1906C23.0167 41.4323 23.2479 41.6073 23.5188 41.6781L39.2563 45.799C39.8146 45.9448 40.3865 45.6146 40.5385 45.0583L44.7542 29.6531C44.8313 29.3729 44.7885 29.0729 44.6365 28.825L42.2938 25.0052L44.6365 21.1781C44.7885 20.9302 44.8313 20.6302 44.7542 20.35L40.5375 4.94166C40.3854 4.38645 39.8146 4.05625 39.2573 4.20104L39.2573 4.20104Z" id="Shape" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

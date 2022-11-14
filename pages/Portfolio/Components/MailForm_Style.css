@@ -1,0 +1,344 @@
+
+.MailForm.open {
+    position: fixed;
+    display: flex;
+    bottom: 74px;
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    backdrop-filter: none;
+}
+
+
+
+.MailForm {
+    bottom: -13px;
+    height: 45px;
+    opacity: 0;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    right: 80px;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    justify-content: space-between;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+}
+
+.EmailSection {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: 499px;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+.MailForm .headingTitle {
+    display: flex;
+    font-size: 15px;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background: rgb(0 0 0 / 72%);
+    align-content: center;
+}
+
+.FormButtons a {
+    border-radius: 6px !important;
+}
+
+.MailForm .headingTitle .CloseForm {
+    height: 100%;
+    line-height: 50px;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.MailForm .headingTitle .CloseForm:hover {
+    background: rgba(238, 54, 54, 0.7);
+    transition: all 0.5s ease;
+}
+
+.MailForm .headingTitle #MinimizeBtn:hover {
+    background: rgba(93, 93, 93, 0.7);
+    transition: all 0.5s ease;
+}
+
+.MailForm .headingTitle .heading {
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: white;
+    width: inherit;
+    text-align: center;
+}
+
+.MailForm .headingTitle i {
+    font-size: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.MailForm .heading span {
+    color: #086ac5;
+    text-transform: uppercase;
+}
+
+.MailForm .ContactContent {
+    flex: 1 1 20rem;
+    padding: 15px;
+    display: flex;
+    height: 100%;
+    background: var(--BlackOpacity-color);
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.MailForm .ContactContent .form-control,
+.MailForm .ContactContent textarea {
+    color: rgba(250, 250, 250, 0.7);
+    width: 100%;
+    text-transform: none;
+    font-size: 20px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 3px;
+    margin: 5px 0;
+    background: rgb(0 0 0 / 24%);
+    border: none;
+    transition: all .5s;
+    letter-spacing: 1px;
+}
+
+::-webkit-file-upload-button {
+    background: none;
+    border: none;
+    width: 0;
+    opacity: 0;
+}
+
+.MailForm .ContactContent input.form-control {
+    padding-left: 45px;
+}
+
+
+.MailForm .ContactContent label.form-label  {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #cdcdcd;
+}
+
+.MailForm .ContactContent .input-group .input-group-text {
+    color: #3c9dc5;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    height: 100%;
+    z-index: 10;
+}
+
+.MailForm .ContactContent .form-control:focus,
+.MailForm .ContactContent .textarea:focus {
+    border: none;
+}
+
+.MailForm .ContactContent .form-control:hover{
+    border: none;
+    background: rgb(78 78 78 / 46%);
+}
+
+.MailForm .ContactContent .form-control::placeholder,
+.MailForm .ContactContent .textarea::placeholder {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.MailForm .ContactContent textarea {
+    height: 10rem;
+    resize: none;
+}
+
+
+.btnSendMail {
+    background: rgb(0 98 188 / 85%);
+    height: 100%;
+    line-height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: space-between;
+    color: var(--Gray3-color);
+    font-size: 20px;
+    border-radius: 3px;
+    width: 90%;
+    border: none;
+}
+
+.btnSendMail:hover {
+    background-position: right center;
+    background: var(--BlackOpacity-color);
+    font-size: 20px;
+    border: 0rem solid #0850a1;
+}
+
+.MailForm.minimize {
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    bottom: 74px;
+    left: 0;
+    opacity: 1;
+    right: 58px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: center;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+.MailForm.minimize .EmailSection {
+    width: 313px;
+}
+
+.MailForm.minimize .headingTitle {
+    display: flex;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 6px;
+    transition: all 0.5s ease;
+    align-items: flex-start;
+}
+
+.MailForm.minimize .headingTitle .CloseForm {
+    border-radius: 0px;
+    transition: all 0.5s ease;
+}
+
+
+.MailForm.minimize .headingTitle .heading {
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    color: white;
+    width: inherit;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.MailForm.minimize .headingTitle i {
+    font-size: 30px;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.MailForm.minimize .ContactContent {
+    flex: 1 1 20rem;
+    padding-left: 20px;
+    padding-top: 0px;
+    display: grid;
+    height: 85%;
+    width: 90%;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.MailForm .ContactContent .ValidationErrors {
+    color: #c55757;
+    letter-spacing: .5px;
+}
+
+
+
+/* Swal CSS */
+body.swal2-toast-shown .swal2-container {
+    z-index: 2300;
+}
+
+
+.swal2-popup.swal2-toast.swal2-show {
+  background: #fffffff0;
+}
+
+.swal2-container {
+  z-index: 2300;
+}
+
+body#Body .swal2-container {
+  z-index: 2300;
+}
+  
+
+/* Mobile Phones Display width > 360 */
+
+@media(max-width:700px) {
+
+    .MailForm.open {
+        bottom: 0;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 3000;
+        border: none;
+        border-radius: 0;
+    }
+
+    .EmailSection {
+        height: 100vh;
+        border-radius: 0;
+        overflow: unset;
+        border: none;
+    }
+
+    .MailForm .ContactContent {
+        padding: 0px;
+        justify-content: flex-start;
+    }
+
+    .btnSendMail {
+        height: fit-content;
+     }
+
+}

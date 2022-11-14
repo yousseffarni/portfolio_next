@@ -1,0 +1,241 @@
+/* TaskBar Styles : */
+
+.TaskBar_Section {
+    position: fixed;
+    z-index: 2000;
+    bottom: 10px;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TaskBar {
+    height: 50px;
+    border-radius: 7px;
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: all 0.5s ease;
+    background: rgb(0, 0, 0, .5);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    justify-content: flex-start;
+}
+
+.TaskBar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+}
+
+.TaskBar .nav-options {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    width: -moz-fit-content;
+    position: relative;
+    width: fit-content;
+}
+
+.TaskBar ul li {
+    position: relative;
+    height: 100%;
+    width: 50px;
+    list-style: none;
+    transition: all 0.5s ease;
+}
+
+.TaskBar ul li button:hover {
+    background: rgba(139, 138, 138, 0.19);
+    border: 0.5px solid #ffffff6e;
+}
+
+.TaskBar ul li.active {
+    background: none;
+}
+
+.TaskBar ul .btnDateTime a {
+    color: #fff;
+    display: flex;
+    font-weight: lighter;
+    align-items: center;
+    letter-spacing: 1px;
+    height: 100%;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    white-space: nowrap;
+    background: rgb(0, 0, 0, 0);
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.TaskBar ul .btnDateTime {
+    position: relative;
+    height: 50px;
+    width: 100px;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.TaskBar ul li .TaskBar_buttons.active:before,
+.TaskBar ul li.appsbar.active:before {
+    width: 100%;
+    transition: all 0.7s ease 0s;
+}
+
+.TaskBar ul li .TaskBar_buttons:before,
+.TaskBar ul li.appsbar:before {
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #7ac1ff;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition: all 0.7s ease 0s;
+}
+
+.TaskBar ul .btnSettings2 {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 50px;
+    list-style: none;
+}
+
+.TaskBar ul li button .tooltrip {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%, -50%);
+    height: 30px;
+    width: 100px;
+    background: #ffff;
+    color: #222222;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10000;
+    border-radius: 4px;
+    display: block;
+}
+
+.TaskBar ul li button .tooltrip.Services {
+    width: 150px;
+}
+
+.TaskBar ul li button .tooltrip.experience {
+    width: 150px;
+}
+
+.TaskBar ul li #RealDateNames {
+    position: absolute;
+    top: -40px;
+    transform: translateY(-50%, -50%);
+    height: 0px;
+    width: max-content;
+    background: #ffff;
+    color: #222222;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    right: -50px;
+    padding: 0 6px;
+}
+
+.TaskBar ul li button:hover #RealDateNames {
+    top: -40px;
+    height: 30px;
+    opacity: .7;
+    transition: all 0.5s ease;
+}
+
+.TaskBar ul li button:hover .tooltrip {
+    top: -40px;
+    opacity: .7;
+    transition: all 0.5s ease;
+}
+
+.TaskBar ul .appsbar a span.tooltrip, .TaskBar ul .appsbar button span.tooltrip {
+    display: block;
+}
+
+.TaskBar ul li a,
+.TaskBar ul li button {
+    color: #fff;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: none;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    white-space: nowrap;
+    background: rgb(0, 0, 0, 0);
+    justify-content: center;
+}
+
+.TaskBar ul li a svg,
+.TaskBar ul li button svg{
+    font-size: 23px;
+}
+
+.TaskBar ul .appsbar.active a ,
+.TaskBar ul .appsbar.active button{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.TaskBar ul .appsbar a span ,
+.TaskBar ul .appsbar button span {
+    display: flex;
+}
+
+.TaskBar ul .HomeButton button {
+    background-image: linear-gradient(to right, #3a7bd5 0%, #00d2ff 100%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.TaskBar ul li i {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.TaskBar ul .HomeButton:hover {
+    background-image: linear-gradient(to right, #3c82e4 0%, #13d4fe 100%);
+    color: #fff;
+}
+
+.TaskBar ul .HomeButton:hover {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.TaskBar ul li button:hover .SVG_Icons {
+    border: none;
+}
+
+

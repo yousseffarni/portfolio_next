@@ -1,0 +1,293 @@
+/* [1] rubberBand Animation*/
+
+@-webkit-keyframes rubberBand {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes rubberBand {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.rubberBand:hover {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+}
+
+.animated:hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+/* Background Animation*/
+
+.animation-area {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+}
+
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+
+.box-area li:nth-child(1) {
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(2) {
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+
+.box-area li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4) {
+    left: 42%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+.box-area li:nth-child(5) {
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(6) {
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+/* Downloading Button Animation*/
+
+.button {
+    position: relative;
+    height: 55px;
+    max-width: 300px;
+    width: 90%;
+    background: #0c6fb5;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all .5s;
+}
+
+.button.Done {
+    background: #129c30;
+    transition: all 1s;
+}
+
+.button.progress {
+    background: #0c6fb5;
+    transition: all 1s;
+}
+
+.button:hover {
+    height: 60px;
+    max-width: 305px;
+    width: 100%;
+    background: #0d89e2;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+}
+
+.button.progress:hover {
+    background: #0d89e2;
+    transition: all 1s;
+    height: 55px;
+    max-width: 300px;
+}
+
+.button.Done:hover {
+    background: #0fe23c;
+    transition: all 1s;
+    height: 55px;
+    max-width: 300px;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 0 0 / 52%);
+}
+
+.button.progress::before {
+    animation: progress 6s ease-in-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        left: -100%;
+        transition: all .7s;
+    }
+    100% {
+        left: 0%;
+        transition: all .7s;
+    }
+}
+
+.button .text-icon {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button .text-icon i {
+    padding-top: 5px;
+    font-weight: 900;
+}
+
+.button .text-icon i,
+.button .text-icon span {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+}
+
+.button .text-icon span {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.Form .data .row-1 .content p.pdf_download_Link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: initial;
+}
+
+.Form .data .row-1 .content p.pdf_download_Link.hide {
+    display: none
+}
+
+.AboutButtons .pdf_download_Link a {
+    color: rgb(11, 123, 156);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    display: initial;
+    letter-spacing: 1px;
+}
+
+.AboutButtons .pdf_download_Link a:hover {
+    color: rgb(17, 186, 238);
+    font-size: 16px;
+}
+
+.AboutButtons .pdf_download_Link a:focus {
+    color: rgb(0, 89, 255);
+}

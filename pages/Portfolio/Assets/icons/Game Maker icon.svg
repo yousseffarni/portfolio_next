@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L48 0L48 48L0 48L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Game-Maker-icon">
+    <path d="M0 0L48 0L48 48L0 48L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M20.942 38L19.247 38C17.261 38 15.414 36.917 14.428 35.174L8 24L16.025 10L24.346 10L16.906 24.016L17.003 24.071L20.462 30L25.405 30L20.942 38L20.942 38ZM11.065 14.632L8.888 10.843C8.574 10.319 8.016 10 7.415 10L0 10L6.849 21.986L11.065 14.632L11.065 14.632ZM33.497 12.826C32.511 11.083 30.665 10 28.677 10L26.61 10L22.363 18L27.462 18L31 24L23.232 38L31.899 38L40 24L33.497 12.826L33.497 12.826ZM41.148 26.009L36.913 33.329L39.112 37.157C39.426 37.681 39.984 38 40.585 38L48 38L41.148 26.009L41.148 26.009Z" id="Shape" fill="#8BC34A" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

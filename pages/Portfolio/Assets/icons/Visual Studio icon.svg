@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Visual-Studio-icon">
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M37.5 5.20837L17.7083 22.3959L7.29167 14.5834L4.16667 15.8855L4.16667 34.1146L7.29167 35.4167L17.7083 27.6042L37.5 44.7917L45.8333 41.6667L45.8333 8.33337L37.5 5.20837L37.5 5.20837ZM8.33334 20.8334L13.5417 25L8.33334 29.1667L8.33334 20.8334L8.33334 20.8334ZM25 25L35.4167 17.7084L35.4167 32.2917L25 25L25 25Z" id="Shape" fill="#6A1B9A" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

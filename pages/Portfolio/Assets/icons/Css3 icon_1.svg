@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Css3-icon">
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M42.7083 5.20837L7.29167 5.20837L10.4167 40.625L25 44.7917L39.5833 40.625L42.7083 5.20837L42.7083 5.20837L42.7083 5.20837Z" id="Shape" fill="#0277BD" fill-rule="evenodd" stroke="none" />
+      <path d="M25 8.33337L25 41.5625L36.6667 38.2292L39.2708 8.33337L25 8.33337Z" id="Shape" fill="#039BE5" fill-rule="evenodd" stroke="none" />
+      <path d="M34.4792 13.5416L25 13.5416L25 17.7083L30.1042 17.7083L29.7917 21.875L25 21.875L25 26.0416L29.5833 26.0416L29.2708 30.7291L25 32.1875L25 36.5625L33.2292 33.8541L33.9583 21.875L33.9583 21.875L34.4792 13.5416Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M25 13.5416L25 17.7083L15.7292 17.7083L15.4167 13.5416L25 13.5416L25 13.5416ZM20.2083 21.875L20.4167 26.0417L25 26.0417L25 21.875L20.2083 21.875L20.2083 21.875ZM20.625 28.125L16.4583 28.125L16.7708 33.8542L25 36.5625L25 32.1875L20.7292 30.7292L20.625 28.125L20.625 28.125Z" id="Shape" fill="#EEEEEE" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

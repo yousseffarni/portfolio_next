@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Adobe-Audition-icon-2">
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M6.25 10.4167C6.25 8.11563 8.11563 6.25 10.4167 6.25L39.5833 6.25C41.8844 6.25 43.75 8.11563 43.75 10.4167L43.75 39.5833C43.75 41.8844 41.8844 43.75 39.5833 43.75L10.4167 43.75C8.11563 43.75 6.25 41.8844 6.25 39.5833L6.25 10.4167L6.25 10.4167Z" id="Shape" fill="#80CBC4" fill-rule="evenodd" stroke="none" />
+      <path d="M9.375 9.375L9.375 40.625L40.625 40.625L40.625 9.375L9.375 9.375L9.375 9.375Z" id="Shape" fill="#004D40" fill-rule="evenodd" stroke="none" />
+      <path d="M21.775 29.15L17.5958 29.15L16.7833 32.0948L13.5417 32.0948L18.2833 17.7084L21.0865 17.7084L25.8594 32.0938L22.5875 32.0938L21.775 29.15L21.775 29.15ZM18.2625 26.7292L21.0969 26.7292L19.6792 21.6011L18.2625 26.7292L18.2625 26.7292Z" id="Shape" fill="#80CBC4" fill-rule="evenodd" stroke="none" />
+      <path d="M32.6083 31.1157C32.0073 31.899 31.2 32.2917 30.1896 32.2917C29.1708 32.2917 28.399 31.9542 27.8729 31.2792C27.3458 30.6042 27.0833 29.6209 27.0833 28.3292L27.0833 20.8334L29.9844 20.8334L29.9844 28.399C29.9979 29.4396 30.3573 29.9605 31.0604 29.9605C31.7229 29.9605 32.2021 29.6834 32.4958 29.1303L32.4958 20.8334L35.4167 20.8334L35.4167 32.0938L32.6906 32.0938L32.6083 31.1157L32.6083 31.1157Z" id="Shape" fill="#80CBC4" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0" y1="0" x2="1" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#33BEF0" />
+      <stop offset="1" stop-color="#448AFF" />
+    </linearGradient>
+    <path d="M0 0L35 0L35 35L0 35L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group">
+    <g id="Facebook-Messenger-icon-2">
+      <path d="M0 0L35 0L35 35L0 35L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <path d="M6.53521 5.909C3.33943 5.909 3.54398 5.79856 3.61516 9.74812C3.63836 14.0452 3.61516 21.8238 3.61516 25.7444C3.61516 27.6383 3.5658 28.2015 5.45148 28.3613C7.1088 28.5018 10.5064 28.3405 13.368 28.3614C13.368 28.3614 13.4337 33.636 13.4337 33.636L19.0691 28.3613C20.2251 28.6351 27.674 28.3613 28.9745 28.3613C32.349 28.3613 34.9252 28.4914 35.0434 28.0906C35.1355 27.7784 35.0434 26.7328 35.0434 22.9718C35.0434 19.4266 35.1139 13.1285 35.0434 9.74812C34.9792 6.66898 35.6252 5.909 32.0089 5.909L6.53521 5.909Z" id="Shape" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+    <path d="M8.74999 17.2727C8.74999 16.0175 9.72937 15 10.9375 15C12.1456 15 13.125 16.0175 13.125 17.2727C13.125 18.5279 12.1456 19.5455 10.9375 19.5455C9.72937 19.5455 8.74999 18.5279 8.74999 17.2727Z" id="Ellipse" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+    <path d="M17.0625 17.2727C17.0625 16.0175 18.0419 15 19.25 15C20.4581 15 21.4375 16.0175 21.4375 17.2727C21.4375 18.5279 20.4581 19.5455 19.25 19.5455C18.0419 19.5455 17.0625 18.5279 17.0625 17.2727Z" id="Ellipse-2" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+    <path d="M25.375 17.2727C25.375 16.0175 26.3544 15 27.5625 15C28.7706 15 29.75 16.0175 29.75 17.2727C29.75 18.5279 28.7706 19.5455 27.5625 19.5455C26.3544 19.5455 25.375 18.5279 25.375 17.2727Z" id="Ellipse-2-Copy" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
